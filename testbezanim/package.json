@@ -32,11 +32,6 @@
       "eslint --fix",
       "prettier --write"
     ]
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "echo 'Running pre-commit hook'",
-      "pre-push": "npm run lint"
-    }
   }
+ 
 }

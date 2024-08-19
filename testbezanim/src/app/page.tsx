@@ -1,6 +1,6 @@
 import Image from "next/image";
 import styles from "./page.module.css";
-import 'react';
+
 export default function Home() {
   return (
     <>
@@ -30,7 +30,7 @@ export default function Home() {
           <h2>
             Docs <span>-&gt;</span>
           </h2>
-       
+          <p>Find in-depth information about Next.js features and API.</p>
         </a>
 
         <a
@@ -42,15 +42,21 @@ export default function Home() {
           <h2>
             Learn <span>-&gt;</span>
           </h2>
-     
+          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
         </a>
 
-        
+        <a
+          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          className={styles.card}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <h2>
             Templates <span>-&gt;</span>
           </h2>
           <p>Explore starter templates for Next.js.gthui</p>
-      
+        </a>
+
         <a
           href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
           className={styles.card}
@@ -58,9 +64,11 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2>
-           fdyjfyj
+            Deploy <span>-&gt;</span>
           </h2>
-        
+          <p>
+           shadiiiiiiiiiiiii
+          </p>
         </a>
       </div>
     </main>
