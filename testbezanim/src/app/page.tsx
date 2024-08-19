@@ -17,7 +17,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className={styles.center}>
+      <div className={center}>
        
       </div>
 
@@ -56,8 +56,7 @@ wsbrfdsg backgroundColorNames
             Templates <span>-&gt;</span>
           </h2>
           <p>Explore starter templates for Next.js.</p>
-        </a>
-
+        </a
         <a
           href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
           className={styles.card}

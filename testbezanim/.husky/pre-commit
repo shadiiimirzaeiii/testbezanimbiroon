@@ -1,10 +1,4 @@
-#!/bin/sh
-. "$(dirname "$0")/_/husky.sh"
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
 
-# Run any pre-commit tasks here (e.g., linting, testing)
-# Example:
- npx eslint .
-npx lint-staged
-
-# Display a custom message
-echo "✔ Pre-commit checks passed! Your code is ready to commit."
+pnpm lint-staged
