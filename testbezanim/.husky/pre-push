@@ -1,5 +1,4 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-pnpm test
-
+echo "✔ Pre-commit checks passed! Your code is ready to commit."

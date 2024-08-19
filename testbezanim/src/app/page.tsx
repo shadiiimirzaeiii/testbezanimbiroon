@@ -18,7 +18,7 @@ export default function Home() {
 
       <div className={styles.center}>
        
-      </div
+      </div>
 
       <div className={styles.grid}>
         <a
@@ -54,7 +54,7 @@ export default function Home() {
           <h2>
             Templates <span>-&gt;</span>
           </h2>
-          <p>Explore starter templates for Next.js.gthui</p>
+          <p>Explore starter templates for Next.js.</p>
         </a>
 
         <a
