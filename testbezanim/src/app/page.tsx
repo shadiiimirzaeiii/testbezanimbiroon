@@ -40,7 +40,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
         
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
+         
         </a>
 
         <a
