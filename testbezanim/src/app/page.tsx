@@ -18,7 +18,7 @@ export default function Home() {
 
       <div className={styles.center}>
        
-      </div>
+      </div
 
       <div className={styles.grid}>
         <a

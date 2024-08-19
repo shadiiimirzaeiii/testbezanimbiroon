@@ -7,8 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "prepare": "husky install",
-    "format": " echo prettier --write blahhh"
+    "prepare": "husky install"
   },
   "dependencies": {
     "react": "^18",
@@ -33,5 +32,4 @@
       "prettier --write"
     ]
   }
- 
 }
