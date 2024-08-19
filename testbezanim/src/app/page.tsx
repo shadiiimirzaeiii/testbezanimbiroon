@@ -16,7 +16,7 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            By{''}
+            By{" "}
                <Image
               src="/vercel.svg"
               alt="Vercel Logo"
@@ -62,17 +62,19 @@ export default function Home() {
           <h2>
             Learn <span>-&gt;</span>
           </h2>
+          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
         </a>
 
         <a
           href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
           className={styles.card}
-          target='_blank'
+          target="_blank"
           rel="noopener noreferrer"
         >
           <h2>
             Templates <span>-&gt;</span>
           </h2>
+          <p>Explore starter templates for Next.js.</p>
         </a>
 
         <a
