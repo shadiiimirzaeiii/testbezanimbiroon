@@ -1,6 +1,6 @@
 import Image from "next/image";
 import styles from "./page.module.css";
-
+import 'react';
 export default function Home() {
   return (
     <>
@@ -67,7 +67,7 @@ export default function Home() {
             Deploy <span>-&gt;</span>
           </h2>
           <p>
-           shadiiiiiiiiiiiii
+           ggggggg
           </p>
         </a>
       </div>
