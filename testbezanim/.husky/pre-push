@@ -1,4 +1,3 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-echo "✔ Pre-commit checks passed! Your code is ready to commit."

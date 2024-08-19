@@ -7,7 +7,10 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "prepare": "husky install"
+    "preinstall": "npx only-allow pnpm",
+    "prepare": "husky install",
+    "ts": "tsc --noEmit --incremental --preserveWatchOutput --pretty",
+    "validate": "pnpm run lint && pnpm run ts"
   },
   "dependencies": {
     "react": "^18",

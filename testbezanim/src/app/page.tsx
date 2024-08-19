@@ -17,8 +17,8 @@ export default function Home() {
         </div>
       </div>
 
-      <div className={center}>
-       
+      <div >
+       {console.log(shadi)}
       </div>
 
       <div className={styles.grid}>
