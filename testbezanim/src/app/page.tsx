@@ -17,14 +17,7 @@ export default function Home() {
       </div>
 
       <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
+       
       </div>
 
       <div className={styles.grid}>
@@ -61,7 +54,7 @@ export default function Home() {
           <h2>
             Templates <span>-&gt;</span>
           </h2>
-          <p>Explore starter templates for Next.js.</p>
+          <p>Explore starter templates for Next.js.gthui</p>
         </a>
 
         <a

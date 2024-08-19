@@ -1,8 +1,8 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-npx lint-staged
+# Add your pre-commit tasks here
+npx eslint .
 
-
-echo 'wrong shadi'
-false;
+# Show a custom message
+echo "✔ Pre-commit checks passed! Your code is ready to commit.shadi"
