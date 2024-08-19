@@ -1,8 +1,8 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-# Add your pre-commit tasks here
-npx eslint .
+# Run any pre-commit tasks here (e.g., linting, testing)
+# Example: npx eslint .
 
-# Show a custom message
-echo "✔ Pre-commit checks passed! Your code is ready to commit.shadi"
+# Display a custom message
+echo "✔ Pre-commit checks passed! Your code is ready to commit."
