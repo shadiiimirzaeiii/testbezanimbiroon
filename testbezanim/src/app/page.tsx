@@ -3,6 +3,7 @@ import styles from "./page.module.css";
 
 export default function Home() {
   return (
+    <>
     <main className={styles.main}>
       <div className={styles.description}>
         <p>
@@ -20,7 +21,7 @@ export default function Home() {
               src="/vercel.svg"
               alt="Vercel Logo"
               className={styles.vercelLogo}
-              width={100}
+              width={200}
               height={24}
               priority
             />
@@ -86,10 +87,11 @@ export default function Home() {
             Deploy <span>-&gt;</span>
           </h2>
           <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
+            Instantly deploy your Next.js site to a shareable URL with Vercel.shadiiiiiiiiiiiii
           </p>
         </a>
       </div>
     </main>
+    </>
   );
 }
